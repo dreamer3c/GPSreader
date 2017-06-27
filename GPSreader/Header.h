@@ -10,9 +10,11 @@
 typedef struct GPS
 {
     char UCTtime;
-    char location;
-    char longitude;
     char latitude;
+    char hemisphereSN;
+    char longitude;
+    char hemisphereEW;
+    char QualityFactor;
     char UCTdayandmonth;
     char speed;
     char orientation;
